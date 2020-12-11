@@ -9,6 +9,17 @@ Furthermore, The most important node in the WSN was the sync node. In our applic
 Finally Once one receive the data from the drone,  one can use a matlab code to parse the packets received and present the data in a userfriendly way rather than a frame 
 
 
+
+
 Folders Description:
 
 The Artichure design: this folder contains a picture, The picture illustrate how we setup our network
+
+
+
+
+
+Files Description:
+
+Sync & Drone nodes Code : this file contain the waspmote code for both the sync node & the drone node, in addition it also contains the matlab parsing code at the end.
+These code need to be used separatly, so each code need to be compiled separately make sure to follow up on the comments inside the code inorder to be able to distinguish the nodes
